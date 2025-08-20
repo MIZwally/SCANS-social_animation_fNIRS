@@ -1,0 +1,9 @@
+[project]
+name = "task-social-animation-main"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "psychopy>=2025.1.1",
+]

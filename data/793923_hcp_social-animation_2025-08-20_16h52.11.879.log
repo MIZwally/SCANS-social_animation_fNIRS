@@ -1,0 +1,140 @@
+76.6275 	WARNING 	Font Manager failed to load file /System/Library/PrivateFrameworks/FontServices.framework/Resources/Reserved/PingFangUI.ttc
+76.7248 	WARNING 	Font Manager failed to load file /System/Library/PrivateFrameworks/FontServices.framework/Resources/Reserved/PingFangUI.ttc
+88.0788 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x12824a680>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x12824a620>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1282dd1e0>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+88.0788 	EXP 	window1: backgroundImage = ''
+88.0788 	EXP 	window1: backgroundFit = 'none'
+88.0803 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+88.0804 	EXP 	window1: recordFrameIntervals = False
+88.1619 	EXP 	window1: recordFrameIntervals = True
+88.1966 	WARNING 	t of last frame was 10.74ms (=1/93)
+88.2168 	WARNING 	t of last frame was 11.61ms (=1/86)
+88.2300 	WARNING 	t of last frame was 13.17ms (=1/75)
+88.2616 	WARNING 	t of last frame was 23.46ms (=1/42)
+88.2795 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+89.0284 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+100.8685 	EXP 	hcp_social-animation: status = STARTED
+100.9728 	EXP 	Created Intro = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='Intro', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+111.7865 	EXP 	Created resp_prompt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='resp_prompt', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Social         Unsure         Non-social', units='height', win=Window(...), wrapWidth=1)
+111.7898 	EXP 	Created fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.1), italic=False, languageStyle='LTR', name='fixation', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+111.7949 	EXP 	Created end_run_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='end_run_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+111.7990 	EXP 	Created end_task_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='end_task_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0138 	EXP 	video_stim: autoLog = True
+0.0289 	EXP 	Intro: autoDraw = True
+15.4367 	EXP 	Device response: <KeyPress from None: t=15.417547463999654, value=space, duration=None>
+15.4417 	EXP 	Imported ../stimuli/stimuli_order.csv as conditions, 2 conditions, 2 params
+15.4420 	EXP 	Created sequence: sequential, trialTypes=2, nReps=1, seed=None
+15.4421 	EXP 	New trial (rep=0, index=0): OrderedDict([('runFile', '../stimuli/stimuli_order_run1.csv'), ('readyMsg', 'Run 1')])
+15.4445 	EXP 	Imported ../stimuli/stimuli_order_run1.csv as conditions, 5 conditions, 3 params
+15.4447 	EXP 	Created sequence: sequential, trialTypes=5, nReps=1, seed=None
+15.4449 	EXP 	New trial (rep=0, index=0): OrderedDict([('run', np.int64(1)), ('stimuli', '../stimuli/COAXING-B.AVI'), ('category', 'mental')])
+15.6752 	EXP 	Device response: <KeyPress from None: t=15.417547463999654, value=space, duration=0.1286448950004342>
+15.7037 	DATA 	Keypress: space
+15.7120 	EXP 	Intro: autoDraw = False
+15.7120 	EXP 	video_stim: autoDraw = True
+35.5579 	EXP 	video_stim: autoDraw = False
+35.5579 	EXP 	resp_prompt: autoDraw = True
+37.8623 	EXP 	Device response: <KeyPress from None: t=37.85720472199955, value=left, duration=None>
+38.0028 	DATA 	Keypress: left
+38.0793 	EXP 	Device response: <KeyPress from None: t=37.85720472199955, value=left, duration=0.21665342800042708>
+38.4463 	EXP 	resp_prompt: autoDraw = False
+38.4463 	EXP 	fixation: autoDraw = True
+53.4378 	EXP 	New trial (rep=0, index=1): OrderedDict([('run', np.int64(1)), ('stimuli', '../stimuli/BILLIARD-A.AVI'), ('category', 'random')])
+53.6775 	EXP 	fixation: autoDraw = False
+53.6775 	EXP 	video_stim: autoDraw = True
+73.5662 	EXP 	video_stim: autoDraw = False
+73.5662 	EXP 	resp_prompt: autoDraw = True
+74.7531 	EXP 	Device response: <KeyPress from None: t=74.74536391199945, value=right, duration=None>
+74.7557 	DATA 	Keypress: right
+74.9027 	EXP 	Device response: <KeyPress from None: t=74.74536391199945, value=right, duration=0.151709148000009>
+76.4514 	EXP 	resp_prompt: autoDraw = False
+76.4514 	EXP 	fixation: autoDraw = True
+76.5902 	EXP 	Device response: <KeyPress from None: t=76.58518756400008, value=right, duration=None>
+76.5959 	DATA 	Keypress: right
+76.7580 	EXP 	Device response: <KeyPress from None: t=76.58518756400008, value=right, duration=0.16749971299941535>
+91.4387 	EXP 	New trial (rep=0, index=2): OrderedDict([('run', np.int64(1)), ('stimuli', '../stimuli/DRIFTING-A.AVI'), ('category', 'random')])
+91.6664 	EXP 	fixation: autoDraw = False
+91.6664 	EXP 	video_stim: autoDraw = True
+111.5640 	EXP 	video_stim: autoDraw = False
+111.5640 	EXP 	resp_prompt: autoDraw = True
+112.5654 	EXP 	Device response: <KeyPress from None: t=112.56416419400011, value=right, duration=None>
+112.5672 	DATA 	Keypress: right
+112.7317 	EXP 	Device response: <KeyPress from None: t=112.56416419400011, value=right, duration=0.15681700200002524>
+114.4530 	EXP 	resp_prompt: autoDraw = False
+114.4530 	EXP 	fixation: autoDraw = True
+129.4461 	EXP 	New trial (rep=0, index=3): OrderedDict([('run', np.int64(1)), ('stimuli', '../stimuli/FISHING.AVI'), ('category', 'random')])
+129.6718 	EXP 	fixation: autoDraw = False
+129.6718 	EXP 	video_stim: autoDraw = True
+149.5731 	EXP 	video_stim: autoDraw = False
+149.5731 	EXP 	resp_prompt: autoDraw = True
+152.2443 	EXP 	Device response: <KeyPress from None: t=152.23311202599962, value=up, duration=None>
+152.2461 	DATA 	Keypress: up
+152.3440 	EXP 	Device response: <KeyPress from None: t=152.23311202599962, value=up, duration=0.10330568100016535>
+152.4492 	EXP 	resp_prompt: autoDraw = False
+152.4492 	EXP 	fixation: autoDraw = True
+167.4416 	EXP 	New trial (rep=0, index=4): OrderedDict([('run', np.int64(1)), ('stimuli', '../stimuli/RANDOM MECHANICAL.AVI'), ('category', 'mental')])
+167.6635 	EXP 	fixation: autoDraw = False
+167.6635 	EXP 	video_stim: autoDraw = True
+187.5638 	EXP 	video_stim: autoDraw = False
+187.5638 	EXP 	resp_prompt: autoDraw = True
+188.6456 	EXP 	Device response: <KeyPress from None: t=188.64182316299957, value=right, duration=None>
+188.6472 	DATA 	Keypress: right
+188.8065 	EXP 	Device response: <KeyPress from None: t=188.64182316299957, value=right, duration=0.15909244599970407>
+190.4454 	EXP 	resp_prompt: autoDraw = False
+190.4454 	EXP 	fixation: autoDraw = True
+205.4443 	EXP 	fixation: autoDraw = False
+205.4443 	EXP 	end_run_text: autoDraw = True
+209.7553 	EXP 	Device response: <KeyPress from None: t=209.7540359300001, value=space, duration=None>
+209.7561 	EXP 	New trial (rep=0, index=1): OrderedDict([('runFile', '../stimuli/stimuli_order_run2.csv'), ('readyMsg', 'Run 2')])
+209.7591 	EXP 	Imported ../stimuli/stimuli_order_run2.csv as conditions, 5 conditions, 3 params
+209.7593 	EXP 	Created sequence: sequential, trialTypes=5, nReps=1, seed=None
+209.7594 	EXP 	New trial (rep=0, index=0): OrderedDict([('run', np.int64(2)), ('stimuli', '../stimuli/SCARING.AVI'), ('category', 'mental')])
+209.9770 	EXP 	Device response: <KeyPress from None: t=209.7540359300001, value=space, duration=0.06373037899993506>
+209.9795 	DATA 	Keypress: space
+209.9847 	EXP 	end_run_text: autoDraw = False
+209.9847 	EXP 	video_stim: autoDraw = True
+229.8844 	EXP 	video_stim: autoDraw = False
+229.8844 	EXP 	resp_prompt: autoDraw = True
+231.0195 	EXP 	Device response: <KeyPress from None: t=231.01821445399946, value=left, duration=None>
+231.0210 	DATA 	Keypress: left
+231.1353 	EXP 	Device response: <KeyPress from None: t=231.01821445399946, value=left, duration=0.11135130900038348>
+232.7734 	EXP 	resp_prompt: autoDraw = False
+232.7734 	EXP 	fixation: autoDraw = True
+247.7661 	EXP 	New trial (rep=0, index=1): OrderedDict([('run', np.int64(2)), ('stimuli', '../stimuli/SEDUCING-B.AVI'), ('category', 'mental')])
+248.0084 	EXP 	fixation: autoDraw = False
+248.0084 	EXP 	video_stim: autoDraw = True
+267.9019 	EXP 	video_stim: autoDraw = False
+267.9019 	EXP 	resp_prompt: autoDraw = True
+268.5033 	EXP 	Device response: <KeyPress from None: t=268.4980838629999, value=left, duration=None>
+268.5050 	DATA 	Keypress: left
+268.6972 	EXP 	Device response: <KeyPress from None: t=268.4980838629999, value=left, duration=0.19236895399990317>
+270.7696 	EXP 	resp_prompt: autoDraw = False
+270.7696 	EXP 	fixation: autoDraw = True
+285.7619 	EXP 	New trial (rep=0, index=2): OrderedDict([('run', np.int64(2)), ('stimuli', '../stimuli/STAR-A.AVI'), ('category', 'random')])
+285.9990 	EXP 	fixation: autoDraw = False
+285.9990 	EXP 	video_stim: autoDraw = True
+305.8748 	EXP 	video_stim: autoDraw = False
+305.8748 	EXP 	resp_prompt: autoDraw = True
+306.3991 	EXP 	Device response: <KeyPress from None: t=306.39388990299994, value=right, duration=None>
+306.4006 	DATA 	Keypress: right
+306.5328 	EXP 	Device response: <KeyPress from None: t=306.39388990299994, value=right, duration=0.13614506100020662>
+308.7651 	EXP 	resp_prompt: autoDraw = False
+308.7651 	EXP 	fixation: autoDraw = True
+323.7575 	EXP 	New trial (rep=0, index=3): OrderedDict([('run', np.int64(2)), ('stimuli', '../stimuli/SURPRISING-B.AVI'), ('category', 'mental')])
+323.9788 	EXP 	fixation: autoDraw = False
+323.9788 	EXP 	video_stim: autoDraw = True
+343.8849 	EXP 	video_stim: autoDraw = False
+343.8849 	EXP 	resp_prompt: autoDraw = True
+344.7894 	EXP 	Device response: <KeyPress from None: t=344.78605136699935, value=left, duration=None>
+344.7909 	DATA 	Keypress: left
+344.9564 	EXP 	Device response: <KeyPress from None: t=344.78605136699935, value=left, duration=0.16912510700058192>
+346.7716 	EXP 	resp_prompt: autoDraw = False
+346.7716 	EXP 	fixation: autoDraw = True
+347.2443 	EXP 	Device response: <KeyPress from None: t=347.2432812529996, value=escape, duration=None>
+347.2456 	DATA 	Keypress: escape
+347.3557 	EXP 	Device response: <KeyPress from None: t=347.2432812529996, value=escape, duration=0.1025069010001971>
+347.3558 	EXP 	hcp_social-animation: status = STOPPED
+347.3608 	EXP 	fixation: autoDraw = False
+347.3609 	EXP 	hcp_social-animation: status = STOPPED
