@@ -1,9 +1,10 @@
 [project]
-name = "task-social-animation-main"
+name = "SCANS-social-animation"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "psychopy>=2025.1.1",
+    "pylsl>=1.17.6",
 ]
