@@ -16,8 +16,8 @@ from psychopy import locale_setup
 from psychopy import prefs
 from psychopy import plugins
 plugins.activatePlugins()
-prefs.hardware['audioLib'] = 'ptb'
-prefs.hardware['audioLatencyMode'] = '3'
+prefs.hardware['audioLib'] = 'ptb' # type: ignore
+prefs.hardware['audioLatencyMode'] = '3' # type: ignore
 from psychopy import sound, gui, visual, core, data, event, logging, clock, colors, layout
 from psychopy.tools import environmenttools
 from psychopy.constants import (NOT_STARTED, STARTED, PLAYING, PAUSED,
@@ -33,6 +33,8 @@ import sys  # to get file system encoding
 import psychopy.iohub as io
 from psychopy.hardware import keyboard
 
+from pylsl import StreamInfo, StreamOutlet
+
 # --- Setup global variables (available in all functions) ---
 # Ensure that relative paths start from the same directory as this script
 _thisDir = os.path.dirname(os.path.abspath(__file__))
@@ -47,6 +49,8 @@ expInfo = {
     'psychopyVersion': psychopyVersion,
 }
 
+info = StreamInfo(name='Trigger', type='Markers', channel_count=1, channel_format='int32', source_id='Tangrams')  # pyright: ignore[reportArgumentType]
+outlet = StreamOutlet(info)
 
 def showExpInfoDlg(expInfo):
     """
@@ -294,6 +298,8 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
     """
     # mark experiment as started
     thisExp.status = STARTED
+    outlet.push_sample(x=[000])
+    print(000)
     # make sure variables created by exec are available globally
     exec = environmenttools.setExecEnvironment(globals())
     # get device handles from dict of input devices
@@ -1217,4 +1223,6 @@ if __name__ == '__main__':
         inputs=inputs
     )
     saveData(thisExp=thisExp)
+    outlet.push_sample(x=[999])
+    print(999)
     quit(thisExp=thisExp, win=win, inputs=inputs)
