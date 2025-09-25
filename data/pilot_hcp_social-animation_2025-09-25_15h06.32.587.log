@@ -1,0 +1,115 @@
+16.1280 	WARNING 	Font Manager failed to load file /System/Library/PrivateFrameworks/FontServices.framework/Resources/Reserved/PingFangUI.ttc
+16.2710 	WARNING 	Font Manager failed to load file /System/Library/PrivateFrameworks/FontServices.framework/Resources/Reserved/PingFangUI.ttc
+18.7574 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+18.7579 	INFO 	Loaded monitor calibration from ['2025_08_18 14:14']
+18.9215 	INFO 	Using renderer 'Intel(R) UHD Graphics 630' for graphics
+18.9215 	INFO 	OpenGL version supported by driver is 2..
+18.9350 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x13c0b30a0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x13c0b3100>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x13be0b190>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(560.0), np.float64(240.0)], screen=0, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+18.9351 	EXP 	window1: backgroundImage = ''
+18.9351 	EXP 	window1: backgroundFit = 'none'
+18.9573 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.9691 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.9809 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.9930 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.0050 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.0165 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.0283 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.0402 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.0515 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.0639 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.0758 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.0877 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.0993 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.1108 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.1222 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.1337 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.1452 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.1563 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.1674 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.1792 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.1903 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.1906 	DEBUG 	Uploading Texture Font fontname to graphics card
+19.1927 	DEBUG 	Upload of Texture Font fontname complete
+19.2097 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.2213 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.2327 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.2329 	DEBUG 	Uploading Texture Font fontname to graphics card
+19.2335 	DEBUG 	Upload of Texture Font fontname complete
+19.2353 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+19.2353 	EXP 	window1: recordFrameIntervals = False
+19.3936 	EXP 	window1: recordFrameIntervals = True
+20.2270 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+20.2447 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.2561 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.2677 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.2795 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.2914 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.3032 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.3145 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.3262 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.3380 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.3499 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.3502 	DEBUG 	Uploading Texture Font fontname to graphics card
+20.3524 	DEBUG 	Upload of Texture Font fontname complete
+20.3990 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+23.3301 	INFO 	keyboard.Keyboard is using iohub backend.
+23.3302 	EXP 	hcp_social-animation: status = STARTED
+23.4799 	EXP 	Created Intro = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='Intro', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+23.4905 	WARNING 	Using `sdl2` for audio playback via `ffpyplayer`. This is not recommended for applications requiring precise audio-visual synchronization.
+23.4957 	EXP 	Created resp_prompt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='resp_prompt', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Social         Unsure         Non-social', units='height', win=Window(...), wrapWidth=1)
+23.4984 	EXP 	Created fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.1), italic=False, languageStyle='LTR', name='fixation', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+23.5030 	EXP 	Created end_run_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='end_run_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+23.5069 	EXP 	Created end_task_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='end_task_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0029 	EXP 	video_stim: autoLog = True
+0.0232 	INFO 	Keyboard events cleared
+0.0229 	EXP 	Intro: autoDraw = True
+12.0212 	EXP 	Device response: <KeyPress from None: t=12.005239039004664, value=space, duration=None>
+12.0265 	DATA 	Keypress: space
+12.0295 	WARNING 	t of last frame was 27.98ms (=1/35)
+12.0374 	DEBUG 	Read csv file with pandas: ../stimuli/stimuli_order.csv
+12.0384 	DEBUG 	Clearing unnamed columns from ../stimuli/stimuli_order.csv
+12.0387 	EXP 	Imported ../stimuli/stimuli_order.csv as conditions, 2 conditions, 2 params
+12.0390 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'runFile': '../stimuli/stimuli_order_run1.csv', 'readyMsg': 'Run 1', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+12.0416 	DEBUG 	Read csv file with pandas: ../stimuli/stimuli_order_run1.csv
+12.0422 	DEBUG 	Clearing unnamed columns from ../stimuli/stimuli_order_run1.csv
+12.0425 	EXP 	Imported ../stimuli/stimuli_order_run1.csv as conditions, 5 conditions, 3 params
+12.0427 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'run': np.int64(1), 'stimuli': '../stimuli/COAXING-B.AVI', 'category': 'mental', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+12.0428 	DEBUG 	Opening movie file: /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/stimuli/COAXING-B.AVI
+12.0428 	DEBUG 	Using decoder library: ffpyplayer
+12.2352 	INFO 	Opening movie file: /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/stimuli/COAXING-B.AVI
+12.3915 	DEBUG 	Waiting for movie metadata...
+12.4909 	DEBUG 	Movie metadata: {'src_vid_size': (960, 540), 'sink_vid_size': (0, 0), 'title': '', 'duration': 20.133333, 'frame_rate': (30, 1), 'src_pix_fmt': b'yuv420p', 'aspect_ratio': (1, 1)}
+12.4910 	DEBUG 	Movie file opened in 0.45 seconds
+12.4915 	INFO 	Movie playback /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/stimuli/COAXING-B.AVI started at 0.00 seconds
+12.4934 	EXP 	Device response: <KeyPress from None: t=12.005239039004664, value=space, duration=0.07915719199809246>
+12.5005 	WARNING 	t of last frame was 470.96ms (=1/2)
+12.5005 	EXP 	Intro: autoDraw = False
+12.5005 	EXP 	video_stim: autoDraw = True
+32.0353 	DEBUG 	Stopping movie: /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/stimuli/COAXING-B.AVI
+32.0399 	DEBUG 	Opening movie file: /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/stimuli/COAXING-B.AVI
+32.0399 	DEBUG 	Using decoder library: ffpyplayer
+32.0399 	INFO 	Opening movie file: /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/stimuli/COAXING-B.AVI
+32.0402 	DEBUG 	Waiting for movie metadata...
+32.1024 	DEBUG 	Movie metadata: {'src_vid_size': (960, 540), 'sink_vid_size': (0, 0), 'title': '', 'duration': 20.133333, 'frame_rate': (30, 1), 'src_pix_fmt': b'yuv420p', 'aspect_ratio': (1, 1)}
+32.1025 	DEBUG 	Movie file opened in 0.06 seconds
+32.1029 	INFO 	Movie stopped: /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/stimuli/COAXING-B.AVI
+32.1079 	INFO 	Keyboard events cleared
+32.1076 	WARNING 	t of last frame was 75.03ms (=1/13)
+32.1076 	EXP 	video_stim: autoDraw = False
+32.1076 	EXP 	resp_prompt: autoDraw = True
+35.0392 	EXP 	resp_prompt: autoDraw = False
+35.0392 	EXP 	fixation: autoDraw = True
+39.5684 	EXP 	Device response: <KeyPress from None: t=39.56617005600128, value=escape, duration=None>
+39.5859 	DATA 	Keypress: escape
+39.5894 	WARNING 	t of last frame was 24.49ms (=1/40)
+39.6909 	EXP 	Device response: <KeyPress from None: t=39.56617005600128, value=escape, duration=0.1188613179983804>
+39.6910 	EXP 	hcp_social-animation: status = STOPPED
+39.6983 	EXP 	fixation: autoDraw = False
+39.7012 	EXP 	hcp_social-animation: status = STOPPED
+39.7035 	INFO 	saved data to '/Users/mizwally/Desktop/SCANS-social_animation_fNIRS/code/../data/pilot_hcp_social-animation_2025-09-25_15h06.32.587.csv'
+39.7053 	INFO 	saved data to /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/code/../data/pilot_hcp_social-animation_2025-09-25_15h06.32.587.psydat
+39.9363 	DEBUG 	Closing movie reader interface for file: /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/stimuli/COAXING-B.AVI
+39.9431 	DEBUG 	Saving data for hcp_social-animation ExperimentHandler

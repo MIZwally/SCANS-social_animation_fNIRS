@@ -1,0 +1,202 @@
+16.2918 	WARNING 	Font Manager failed to load file /System/Library/PrivateFrameworks/FontServices.framework/Resources/Reserved/PingFangUI.ttc
+16.4730 	WARNING 	Font Manager failed to load file /System/Library/PrivateFrameworks/FontServices.framework/Resources/Reserved/PingFangUI.ttc
+19.3128 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+19.3142 	INFO 	Loaded monitor calibration from ['2025_08_18 14:14']
+19.4738 	INFO 	Using renderer 'Intel(R) UHD Graphics 630' for graphics
+19.4738 	INFO 	OpenGL version supported by driver is 2..
+19.4876 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x13eed3700>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x13eed3760>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x13ecfb550>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(560.0), np.float64(240.0)], screen=0, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+19.4877 	EXP 	window1: backgroundImage = ''
+19.4877 	EXP 	window1: backgroundFit = 'none'
+19.5104 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.5224 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.5344 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.5466 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.5588 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.5704 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.5823 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.5944 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.6057 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.6171 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.6289 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.6407 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.6525 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.6642 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.6756 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.6873 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.6988 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.7100 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.7212 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.7330 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.7443 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.7445 	DEBUG 	Uploading Texture Font fontname to graphics card
+19.7466 	DEBUG 	Upload of Texture Font fontname complete
+19.7638 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.7753 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.7869 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.7871 	DEBUG 	Uploading Texture Font fontname to graphics card
+19.7877 	DEBUG 	Upload of Texture Font fontname complete
+19.7893 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+19.7894 	EXP 	window1: recordFrameIntervals = False
+19.9321 	EXP 	window1: recordFrameIntervals = True
+20.7656 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+20.7836 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.7952 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.8068 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.8189 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.8308 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.8426 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.8539 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.8656 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.8774 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.8891 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.8894 	DEBUG 	Uploading Texture Font fontname to graphics card
+20.8916 	DEBUG 	Upload of Texture Font fontname complete
+20.9397 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+23.6729 	INFO 	keyboard.Keyboard is using iohub backend.
+23.6729 	EXP 	hcp_social-animation: status = STARTED
+23.8241 	EXP 	Created Intro = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='Intro', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+23.8346 	WARNING 	Using `sdl2` for audio playback via `ffpyplayer`. This is not recommended for applications requiring precise audio-visual synchronization.
+23.8397 	EXP 	Created resp_prompt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='resp_prompt', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Social         Unsure         Non-social', units='height', win=Window(...), wrapWidth=1)
+23.8425 	EXP 	Created fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.1), italic=False, languageStyle='LTR', name='fixation', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+23.8471 	EXP 	Created end_run_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='end_run_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+23.8512 	EXP 	Created end_task_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='end_task_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0027 	EXP 	video_stim: autoLog = True
+0.0232 	INFO 	Keyboard events cleared
+0.0229 	WARNING 	t of last frame was 20.22ms (=1/49)
+0.0229 	EXP 	Intro: autoDraw = True
+3.9306 	EXP 	Device response: <KeyPress from None: t=3.9145432469958905, value=space, duration=None>
+3.9342 	DEBUG 	Read csv file with pandas: ../stimuli/stimuli_order.csv
+3.9354 	DEBUG 	Clearing unnamed columns from ../stimuli/stimuli_order.csv
+3.9357 	EXP 	Imported ../stimuli/stimuli_order.csv as conditions, 2 conditions, 2 params
+3.9359 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'runFile': '../stimuli/stimuli_order_run1.csv', 'readyMsg': 'Run 1', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+3.9383 	DEBUG 	Read csv file with pandas: ../stimuli/stimuli_order_run1.csv
+3.9389 	DEBUG 	Clearing unnamed columns from ../stimuli/stimuli_order_run1.csv
+3.9393 	EXP 	Imported ../stimuli/stimuli_order_run1.csv as conditions, 5 conditions, 3 params
+3.9395 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'run': np.int64(1), 'stimuli': '../stimuli/COAXING-B.AVI', 'category': 'mental', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+3.9396 	DEBUG 	Opening movie file: /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/stimuli/COAXING-B.AVI
+3.9396 	DEBUG 	Using decoder library: ffpyplayer
+4.1308 	INFO 	Opening movie file: /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/stimuli/COAXING-B.AVI
+4.2755 	DEBUG 	Waiting for movie metadata...
+4.3714 	DEBUG 	Movie metadata: {'src_vid_size': (960, 540), 'sink_vid_size': (0, 0), 'title': '', 'duration': 20.133333, 'frame_rate': (30, 1), 'src_pix_fmt': b'yuv420p', 'aspect_ratio': (1, 1)}
+4.3714 	DEBUG 	Movie file opened in 0.43 seconds
+4.3719 	INFO 	Movie playback /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/stimuli/COAXING-B.AVI started at 0.00 seconds
+4.3744 	EXP 	Device response: <KeyPress from None: t=3.9145432469958905, value=space, duration=0.05377652300376212>
+4.3835 	DATA 	Keypress: space
+4.3866 	WARNING 	t of last frame was 473.45ms (=1/2)
+4.3866 	EXP 	Intro: autoDraw = False
+4.3866 	EXP 	video_stim: autoDraw = True
+23.9364 	DEBUG 	Stopping movie: /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/stimuli/COAXING-B.AVI
+23.9439 	DEBUG 	Opening movie file: /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/stimuli/COAXING-B.AVI
+23.9439 	DEBUG 	Using decoder library: ffpyplayer
+23.9439 	INFO 	Opening movie file: /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/stimuli/COAXING-B.AVI
+23.9442 	DEBUG 	Waiting for movie metadata...
+24.0060 	DEBUG 	Movie metadata: {'src_vid_size': (960, 540), 'sink_vid_size': (0, 0), 'title': '', 'duration': 20.133333, 'frame_rate': (30, 1), 'src_pix_fmt': b'yuv420p', 'aspect_ratio': (1, 1)}
+24.0061 	DEBUG 	Movie file opened in 0.06 seconds
+24.0066 	INFO 	Movie stopped: /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/stimuli/COAXING-B.AVI
+24.0116 	INFO 	Keyboard events cleared
+24.0113 	WARNING 	t of last frame was 77.01ms (=1/12)
+24.0113 	EXP 	video_stim: autoDraw = False
+24.0113 	EXP 	resp_prompt: autoDraw = True
+25.7811 	EXP 	Device response: <KeyPress from None: t=25.77674995399866, value=left, duration=None>
+25.8184 	DATA 	Keypress: left
+25.8218 	WARNING 	t of last frame was 44.31ms (=1/22)
+25.8218 	EXP 	resp_prompt: autoDraw = False
+25.8218 	EXP 	fixation: autoDraw = True
+25.8697 	EXP 	Device response: <KeyPress from None: t=25.77674995399866, value=left, duration=0.08763601599639514>
+40.7847 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'run': np.int64(1), 'stimuli': '../stimuli/BILLIARD-A.AVI', 'category': 'random', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+40.7915 	DEBUG 	Opening movie file: /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/stimuli/BILLIARD-A.AVI
+40.7915 	DEBUG 	Using decoder library: ffpyplayer
+40.7915 	INFO 	Opening movie file: /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/stimuli/BILLIARD-A.AVI
+40.7917 	DEBUG 	Waiting for movie metadata...
+40.8555 	DEBUG 	Movie metadata: {'src_vid_size': (960, 540), 'sink_vid_size': (0, 0), 'title': '', 'duration': 19.566667, 'frame_rate': (30, 1), 'src_pix_fmt': b'yuv420p', 'aspect_ratio': (1, 1)}
+40.8556 	DEBUG 	Movie file opened in 0.06 seconds
+40.8562 	INFO 	Movie playback /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/stimuli/BILLIARD-A.AVI started at 0.00 seconds
+40.8608 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+40.8607 	EXP 	fixation: autoDraw = False
+40.8607 	EXP 	video_stim: autoDraw = True
+60.4427 	DEBUG 	Stopping movie: /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/stimuli/BILLIARD-A.AVI
+60.4510 	DEBUG 	Opening movie file: /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/stimuli/BILLIARD-A.AVI
+60.4510 	DEBUG 	Using decoder library: ffpyplayer
+60.4511 	INFO 	Opening movie file: /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/stimuli/BILLIARD-A.AVI
+60.4512 	DEBUG 	Waiting for movie metadata...
+60.5101 	DEBUG 	Movie metadata: {'src_vid_size': (960, 540), 'sink_vid_size': (0, 0), 'title': '', 'duration': 19.566667, 'frame_rate': (30, 1), 'src_pix_fmt': b'yuv420p', 'aspect_ratio': (1, 1)}
+60.5102 	DEBUG 	Movie file opened in 0.06 seconds
+60.5105 	INFO 	Movie stopped: /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/stimuli/BILLIARD-A.AVI
+60.5141 	EXP 	video_stim: autoDraw = False
+60.7797 	INFO 	Keyboard events cleared
+60.7794 	EXP 	resp_prompt: autoDraw = True
+69.5419 	EXP 	Device response: <KeyPress from None: t=69.5367340629964, value=up, duration=None>
+69.5432 	DATA 	Keypress: up
+69.6091 	EXP 	Device response: <KeyPress from None: t=69.5367340629964, value=up, duration=0.07138967599894386>
+70.3649 	EXP 	Device response: <KeyPress from None: t=70.36129392799921, value=down, duration=None>
+70.3666 	DATA 	Keypress: down
+70.3725 	EXP 	resp_prompt: autoDraw = False
+70.3725 	EXP 	fixation: autoDraw = True
+70.4265 	EXP 	Device response: <KeyPress from None: t=70.36129392799921, value=down, duration=0.06316398099443177>
+85.3631 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'run': np.int64(1), 'stimuli': '../stimuli/DRIFTING-A.AVI', 'category': 'random', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+85.3689 	DEBUG 	Opening movie file: /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/stimuli/DRIFTING-A.AVI
+85.3690 	DEBUG 	Using decoder library: ffpyplayer
+85.3690 	INFO 	Opening movie file: /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/stimuli/DRIFTING-A.AVI
+85.3692 	DEBUG 	Waiting for movie metadata...
+85.4309 	DEBUG 	Movie metadata: {'src_vid_size': (960, 540), 'sink_vid_size': (0, 0), 'title': '', 'duration': 19.433333, 'frame_rate': (30, 1), 'src_pix_fmt': b'yuv420p', 'aspect_ratio': (1, 1)}
+85.4310 	DEBUG 	Movie file opened in 0.06 seconds
+85.4317 	INFO 	Movie playback /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/stimuli/DRIFTING-A.AVI started at 0.00 seconds
+85.4362 	EXP 	fixation: autoDraw = False
+85.4362 	EXP 	fixation: autoDraw = False
+85.4362 	EXP 	video_stim: autoDraw = True
+104.8884 	DEBUG 	Stopping movie: /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/stimuli/DRIFTING-A.AVI
+104.8981 	DEBUG 	Opening movie file: /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/stimuli/DRIFTING-A.AVI
+104.8981 	DEBUG 	Using decoder library: ffpyplayer
+104.8982 	INFO 	Opening movie file: /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/stimuli/DRIFTING-A.AVI
+104.8983 	DEBUG 	Waiting for movie metadata...
+104.9603 	DEBUG 	Movie metadata: {'src_vid_size': (960, 540), 'sink_vid_size': (0, 0), 'title': '', 'duration': 19.433333, 'frame_rate': (30, 1), 'src_pix_fmt': b'yuv420p', 'aspect_ratio': (1, 1)}
+104.9603 	DEBUG 	Movie file opened in 0.06 seconds
+104.9607 	INFO 	Movie stopped: /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/stimuli/DRIFTING-A.AVI
+104.9640 	EXP 	video_stim: autoDraw = False
+105.3585 	INFO 	Keyboard events cleared
+105.3582 	EXP 	resp_prompt: autoDraw = True
+110.3720 	EXP 	Device response: <KeyPress from None: t=110.36043777199666, value=right, duration=None>
+110.3737 	DATA 	Keypress: right
+110.3764 	EXP 	resp_prompt: autoDraw = False
+110.3764 	EXP 	fixation: autoDraw = True
+110.4267 	EXP 	Device response: <KeyPress from None: t=110.36043777199666, value=right, duration=0.06492685199918924>
+125.3696 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'run': np.int64(1), 'stimuli': '../stimuli/FISHING.AVI', 'category': 'random', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+125.3797 	DEBUG 	Opening movie file: /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/stimuli/FISHING.AVI
+125.3797 	DEBUG 	Using decoder library: ffpyplayer
+125.3798 	INFO 	Opening movie file: /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/stimuli/FISHING.AVI
+125.3799 	DEBUG 	Waiting for movie metadata...
+125.4400 	DEBUG 	Movie metadata: {'src_vid_size': (640, 480), 'sink_vid_size': (0, 0), 'title': '', 'duration': 22.6, 'frame_rate': (30, 1), 'src_pix_fmt': b'yuv420p', 'aspect_ratio': (1, 1)}
+125.4400 	DEBUG 	Movie file opened in 0.06 seconds
+125.4406 	INFO 	Movie playback /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/stimuli/FISHING.AVI started at 0.00 seconds
+125.4452 	EXP 	fixation: autoDraw = False
+125.4452 	EXP 	fixation: autoDraw = False
+125.4452 	EXP 	video_stim: autoDraw = True
+145.3723 	DEBUG 	Stopping movie: /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/stimuli/FISHING.AVI
+145.3799 	DEBUG 	Opening movie file: /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/stimuli/FISHING.AVI
+145.3800 	DEBUG 	Using decoder library: ffpyplayer
+145.3800 	INFO 	Opening movie file: /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/stimuli/FISHING.AVI
+145.3802 	DEBUG 	Waiting for movie metadata...
+145.4369 	DEBUG 	Movie metadata: {'src_vid_size': (640, 480), 'sink_vid_size': (0, 0), 'title': '', 'duration': 22.6, 'frame_rate': (30, 1), 'src_pix_fmt': b'yuv420p', 'aspect_ratio': (1, 1)}
+145.4369 	DEBUG 	Movie file opened in 0.06 seconds
+145.4373 	INFO 	Movie stopped: /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/stimuli/FISHING.AVI
+145.4416 	INFO 	Keyboard events cleared
+145.4412 	EXP 	video_stim: autoDraw = False
+145.4412 	EXP 	resp_prompt: autoDraw = True
+149.2899 	EXP 	Device response: <KeyPress from None: t=149.28894142100035, value=left, duration=None>
+149.2917 	DATA 	Keypress: left
+149.2968 	EXP 	resp_prompt: autoDraw = False
+149.2968 	EXP 	fixation: autoDraw = True
+149.4062 	EXP 	Device response: <KeyPress from None: t=149.28894142100035, value=left, duration=0.1114508249956998>
+155.3002 	EXP 	Device response: <KeyPress from None: t=155.29790382999636, value=escape, duration=None>
+155.3014 	DATA 	Keypress: escape
+155.4224 	EXP 	Device response: <KeyPress from None: t=155.29790382999636, value=escape, duration=0.11855566200392786>
+155.4225 	EXP 	hcp_social-animation: status = STOPPED
+155.4296 	EXP 	fixation: autoDraw = False
+155.4328 	EXP 	hcp_social-animation: status = STOPPED
+155.4363 	INFO 	saved data to '/Users/mizwally/Desktop/SCANS-social_animation_fNIRS/code/../data/pilot_hcp_social-animation_2025-09-25_15h07.54.217.csv'
+155.4368 	INFO 	saved data to /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/code/../data/pilot_hcp_social-animation_2025-09-25_15h07.54.217.psydat
+155.7017 	DEBUG 	Closing movie reader interface for file: /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/stimuli/FISHING.AVI
+155.7141 	DEBUG 	Saving data for hcp_social-animation ExperimentHandler
