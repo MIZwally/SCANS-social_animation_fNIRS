@@ -1,0 +1,43 @@
+16.5457 	WARNING 	Font Manager failed to load file /System/Library/PrivateFrameworks/FontServices.framework/Resources/Reserved/PingFangUI.ttc
+16.6516 	WARNING 	Font Manager failed to load file /System/Library/PrivateFrameworks/FontServices.framework/Resources/Reserved/PingFangUI.ttc
+18.6381 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x13a7e8820>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x13a7e87c0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x13a44ee30>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+18.6382 	EXP 	window1: backgroundImage = ''
+18.6382 	EXP 	window1: backgroundFit = 'none'
+18.9657 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+18.9657 	EXP 	window1: recordFrameIntervals = False
+19.1314 	EXP 	window1: recordFrameIntervals = True
+19.9657 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+22.9616 	EXP 	social-animation: status = STARTED
+23.1452 	EXP 	Created Intro = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='Intro', opacity=1, ori=0.0, pos=array([0. , 0.1]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+23.1532 	EXP 	Created start_task_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='start_task_text', opacity=1, ori=0.0, pos=array([ 0. , -0.2]), rgb=UNKNOWN, text='Press space to start the task.', units='height', win=Window(...), wrapWidth=1)
+23.1649 	WARNING 	Using `sdl2` for audio playback via `ffpyplayer`. This is not recommended for applications requiring precise audio-visual synchronization.
+23.1748 	EXP 	Created resp_prompt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='resp_prompt', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Social         Unsure         Non-social', units='height', win=Window(...), wrapWidth=1)
+23.1774 	EXP 	Created fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.1), italic=False, languageStyle='LTR', name='fixation', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+23.1857 	EXP 	Created end_task_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='end_task_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0056 	EXP 	video_stim: autoLog = True
+0.0185 	EXP 	Intro: autoDraw = True
+2.5063 	EXP 	Device response: <KeyPress from None: t=2.4860708539927145, value=space, duration=None>
+2.5112 	DATA 	Keypress: space
+2.5168 	WARNING 	t of last frame was 22.48ms (=1/44)
+2.6474 	EXP 	Device response: <KeyPress from None: t=2.4860708539927145, value=space, duration=0.16040329600218683>
+7.4955 	EXP 	start_task_text: autoDraw = True
+8.2033 	EXP 	Device response: <KeyPress from None: t=8.197331582996412, value=space, duration=None>
+8.2096 	EXP 	Imported ../stimuli/stimuli_order_all.csv as conditions, 10 conditions, 2 params
+8.2102 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'stimuli': '../stimuli/SEDUCING-B.AVI', 'category': 'social', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+8.6437 	EXP 	Device response: <KeyPress from None: t=8.197331582996412, value=space, duration=0.08759586600353941>
+8.6501 	DATA 	Keypress: space
+8.6551 	WARNING 	t of last frame was 452.93ms (=1/2)
+8.6551 	EXP 	Intro: autoDraw = False
+8.6551 	EXP 	start_task_text: autoDraw = False
+8.6551 	EXP 	video_stim: autoDraw = True
+13.5699 	EXP 	Device response: <KeyPress from None: t=13.567881764000049, value=escape, duration=None>
+13.5886 	DATA 	Keypress: escape
+13.5955 	WARNING 	t of last frame was 27.24ms (=1/36)
+13.7201 	EXP 	Device response: <KeyPress from None: t=13.567881764000049, value=escape, duration=0.15088264099904336>
+13.7201 	EXP 	social-animation: status = STOPPED
+13.7282 	EXP 	video_stim: autoDraw = False
+13.7283 	EXP 	social-animation: status = STOPPED
+13.7628 	WARNING 	t of last frame was 34.61ms (=1/28)

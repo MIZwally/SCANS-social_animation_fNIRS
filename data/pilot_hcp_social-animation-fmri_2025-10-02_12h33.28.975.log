@@ -1,0 +1,64 @@
+16.7533 	WARNING 	Font Manager failed to load file /System/Library/PrivateFrameworks/FontServices.framework/Resources/Reserved/PingFangUI.ttc
+16.8346 	WARNING 	Font Manager failed to load file /System/Library/PrivateFrameworks/FontServices.framework/Resources/Reserved/PingFangUI.ttc
+20.7968 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+20.7974 	INFO 	Loaded monitor calibration from ['2025_08_18 14:14']
+20.9593 	INFO 	Using renderer 'Intel(R) UHD Graphics 630' for graphics
+20.9593 	INFO 	OpenGL version supported by driver is 2..
+20.9729 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x136e043d0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x136e04370>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x136f7a2c0>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(560.0), np.float64(240.0)], screen=0, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+20.9730 	EXP 	window1: backgroundImage = ''
+20.9730 	EXP 	window1: backgroundFit = 'none'
+20.9967 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.0086 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.0206 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.0327 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.0448 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.0563 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.0682 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.0803 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.0917 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.1033 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.1153 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.1272 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.1390 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.1508 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.1626 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.1745 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.1864 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.1979 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.2094 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.2215 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.2341 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.2344 	DEBUG 	Uploading Texture Font fontname to graphics card
+21.2365 	DEBUG 	Upload of Texture Font fontname complete
+21.2543 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.2664 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.2784 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.2788 	DEBUG 	Uploading Texture Font fontname to graphics card
+21.2795 	DEBUG 	Upload of Texture Font fontname complete
+21.2814 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+21.2814 	EXP 	window1: recordFrameIntervals = False
+21.4287 	EXP 	window1: recordFrameIntervals = True
+22.2621 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+22.2803 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.2920 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.3040 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.3162 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.3282 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.3400 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.3513 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.3630 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.3747 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.3868 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.3871 	DEBUG 	Uploading Texture Font fontname to graphics card
+22.3894 	DEBUG 	Upload of Texture Font fontname complete
+22.4388 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+25.3880 	INFO 	keyboard.Keyboard is using iohub backend.
+25.3881 	EXP 	hcp_social-animation-fmri: status = STARTED
+25.4697 	EXP 	Created Intro = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='Intro', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+25.4779 	EXP 	Created start_task_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='start_task_text', opacity=1, ori=0.0, pos=array([300.,   0.]), rgb=UNKNOWN, text='Press space to start the task.', units='height', win=Window(...), wrapWidth=1)
+26.0757 	DEBUG 	Saving data for hcp_social-animation-fmri ExperimentHandler
+26.0761 	INFO 	saved data to /Users/mizwally/Desktop/SCANS-social_animation_fNIRS/code/../data/pilot_hcp_social-animation-fmri_2025-10-02_12h33.28.975.psydat
+26.0763 	INFO 	saved data to '/Users/mizwally/Desktop/SCANS-social_animation_fNIRS/code/../data/pilot_hcp_social-animation-fmri_2025-10-02_12h33.28.975.csv'
