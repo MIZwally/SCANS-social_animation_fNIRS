@@ -1,0 +1,3 @@
+﻿Subject ID,Dyad ID,thisRow.t,thisN,stimuli,category,notes,frameRate,thisTrialN,thisRepN,runs,psychopyVersion,intro.stopped,intro.started,file,expVersion,expStart,expName,date,Trials.thisTrialN,Trials.thisRepN,Trials.thisN,Trials.thisIndex,Runs.thisTrialN,Runs.thisRepN,Runs.thisN,Runs.thisIndex,Participant #,
+,,,,,,,None,,,,2025.2.0,8.123188174009556,0.00600580099853687,,,2025-10-07 11h47.16.943475 -0400,social-animation,2025-10-07_11h47.16.723,,,,,,,,,1,
+,,,0,../stimuli/STAR-A.AVI,nonsocial,,,0,0,2,,,,../stimuli/run2.csv,,,,,0,0,0,2,0,0,0,1,,
