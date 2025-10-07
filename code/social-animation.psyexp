@@ -30,7 +30,7 @@
     <Param val="" valType="str" updates="None" name="backgroundImg"/>
     <Param val="avg" valType="str" updates="None" name="blendMode"/>
     <Param val="float" valType="str" updates="None" name="clockFormat"/>
-    <Param val="{'stimuli': 'priority.HIGH', 'category': 'priority.HIGH', 'resp_key.keys': 'priority.HIGH', 'Dyad ID': 'priority.CRITICAL', 'Subject ID': 'priority.CRITICAL', 'thisN': 'priority.HIGH'}" valType="dict" updates="None" name="colPriority"/>
+    <Param val="{'stimuli': 'priority.HIGH', 'category': 'priority.HIGH', 'resp_key.keys': 'priority.HIGH', 'Dyad ID': 'priority.CRITICAL', 'Subject ID': 'priority.CRITICAL', 'thisN': 'priority.HIGH', 'runs': 'priority.HIGH'}" valType="dict" updates="None" name="colPriority"/>
     <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
     <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
     <Param val="warning" valType="code" updates="None" name="consoleLoggingLevel"/>
