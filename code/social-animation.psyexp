@@ -241,7 +241,7 @@
         <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
         <Param val="outlet.push_sample({&quot;x&quot;: [0]});&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="i = int(Trials.thisN)&amp;#10;condition = 0&amp;#10;if Trials.trialList[i]['category'] == 'nonsocial' :&amp;#10;    condition = 1&amp;#10;else :&amp;#10;    condition = 2&amp;#10;trigger = ((i+1)*10) + condition&amp;#10;output.push_sample(x=[trigger])&amp;#10;print('trigger:', trigger)" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="i = int(Trials.thisN)&amp;#10;condition = 0&amp;#10;if Trials.trialList[i]['category'] == 'nonsocial' :&amp;#10;    condition = 1&amp;#10;else :&amp;#10;    condition = 2&amp;#10;trigger = ((i+1)*10) + condition&amp;#10;outlet.push_sample(x=[trigger])&amp;#10;print('trigger:', trigger)" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Py" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
@@ -322,8 +322,8 @@
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="output.push_sample({&quot;x&quot;: [77]});&amp;#10;console.log(&quot;trigger: 77&quot;);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="output.push_sample(x=[77])&amp;#10;print('trigger: 77')" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="outlet.push_sample({&quot;x&quot;: [77]});&amp;#10;console.log(&quot;trigger: 77&quot;);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="outlet.push_sample(x=[77])&amp;#10;print('trigger: 77')" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
@@ -384,8 +384,8 @@
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="output.push_sample({&quot;x&quot;: [66]});&amp;#10;console.log(&quot;trigger: 66&quot;);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="output.push_sample(x=[66])&amp;#10;print('trigger: 66')" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="outlet.push_sample({&quot;x&quot;: [66]});&amp;#10;console.log(&quot;trigger: 66&quot;);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="outlet.push_sample(x=[66])&amp;#10;print('trigger: 66')" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
@@ -474,7 +474,7 @@
         <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
         <Param val="outlet.push_sample({&quot;x&quot;: [9]});&amp;#10;console.log(&quot;9&quot;);&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
-        <Param val="send_trigger(99)&amp;#10;print('trigger: 99')" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="outlet.push_sample(x=[99])&amp;#10;print(99)" valType="extendedCode" updates="constant" name="End Routine"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="end_trigger" valType="code" updates="None" name="name"/>
       </CodeComponent>

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.2.4),
-    on November 06, 2025, at 14:38
+    on November 06, 2025, at 15:51
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -852,7 +852,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             else :
                 condition = 2
             trigger = ((i+1)*10) + condition
-            send_trigger(trigger)
+            outlet.push_sample(x=[trigger])
             print('trigger:', trigger)
             # store start times for video_phase
             video_phase.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
@@ -976,8 +976,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             resp_key.rt = []
             _resp_key_allKeys = []
             # Run 'Begin Routine' code from response_trigger
-            send_trigger(3)
-            print('trigger: 3')
+            outlet.push_sample(x=[77])
+            print('trigger: 77')
             # store start times for resp_phase
             resp_phase.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
             resp_phase.tStart = globalClock.getTime(format='float')
@@ -1143,7 +1143,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             continueRoutine = True
             # update component parameters for each repeat
             # Run 'Begin Routine' code from fixation_trigger
-            send_trigger(66)
+            outlet.push_sample(x=[66])
             print('trigger: 66')
             # store start times for fixation_phase
             fixation_phase.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
@@ -1398,8 +1398,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         thisExp.addData('end_task_resp.rt', end_task_resp.rt)
         thisExp.addData('end_task_resp.duration', end_task_resp.duration)
     # Run 'End Routine' code from end_trigger
-    send_trigger(99)
-    print('trigger: 99')
+    outlet.push_sample(x=[99])
+    print(99)
     thisExp.nextEntry()
     # the Routine "end_task" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
