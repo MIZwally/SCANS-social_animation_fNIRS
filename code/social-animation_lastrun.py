@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2025.2.0),
-    on Fri Nov 14 14:58:03 2025
+    on Fri Dec 12 11:35:45 2025
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -427,21 +427,49 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     )
     
     # --- Initialize components for Routine "resp_phase" ---
-    resp_prompt = visual.TextStim(win=win, name='resp_prompt',
-        text='    Social             Unsure          No Interaction',
+    social = visual.TextStim(win=win, name='social',
+        text='Social',
         font='Open Sans',
-        pos=(0.005, 0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
+        pos=(-0.5, 0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=0.0);
-    resp_key = keyboard.Keyboard(deviceName='defaultKeyboard')
-    arrow_text = visual.TextStim(win=win, name='arrow_text',
-        text='(Left)              (Down)                (Right)',
+    unsure = visual.TextStim(win=win, name='unsure',
+        text='Unsure',
+        font='Open Sans',
+        pos=(0, 0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
+        color='white', colorSpace='rgb', opacity=None, 
+        languageStyle='LTR',
+        depth=-1.0);
+    no_interaction = visual.TextStim(win=win, name='no_interaction',
+        text='No Interaction',
         font='Arial',
-        pos=(0.001, -0.05), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
+        pos=(0.5, 0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
+        color='white', colorSpace='rgb', opacity=None, 
+        languageStyle='LTR',
+        depth=-2.0);
+    left = visual.TextStim(win=win, name='left',
+        text='(Left)',
+        font='Arial',
+        pos=(-0.5, -0.055), draggable=False, height=0.045, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-3.0);
+    down = visual.TextStim(win=win, name='down',
+        text='(Down)',
+        font='Arial',
+        pos=(0, -0.055), draggable=False, height=0.045, wrapWidth=None, ori=0.0, 
+        color='white', colorSpace='rgb', opacity=None, 
+        languageStyle='LTR',
+        depth=-4.0);
+    right = visual.TextStim(win=win, name='right',
+        text='(Right)',
+        font='Arial',
+        pos=(0.5, -0.055), draggable=False, height=0.045, wrapWidth=None, ori=0.0, 
+        color='white', colorSpace='rgb', opacity=None, 
+        languageStyle='LTR',
+        depth=-5.0);
+    resp_key = keyboard.Keyboard(deviceName='defaultKeyboard')
     
     # --- Initialize components for Routine "fixation_phase" ---
     fixation = visual.TextStim(win=win, name='fixation',
@@ -1030,7 +1058,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # create an object to store info about Routine resp_phase
             resp_phase = data.Routine(
                 name='resp_phase',
-                components=[resp_prompt, resp_key, arrow_text],
+                components=[social, unsure, no_interaction, left, down, right, resp_key],
             )
             resp_phase.status = NOT_STARTED
             continueRoutine = True
@@ -1076,35 +1104,201 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
                 # update/draw components on each frame
                 
-                # *resp_prompt* updates
+                # *social* updates
                 
-                # if resp_prompt is starting this frame...
-                if resp_prompt.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # if social is starting this frame...
+                if social.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
                     # keep track of start time/frame for later
-                    resp_prompt.frameNStart = frameN  # exact frame index
-                    resp_prompt.tStart = t  # local t and not account for scr refresh
-                    resp_prompt.tStartRefresh = tThisFlipGlobal  # on global time
-                    win.timeOnFlip(resp_prompt, 'tStartRefresh')  # time at next scr refresh
+                    social.frameNStart = frameN  # exact frame index
+                    social.tStart = t  # local t and not account for scr refresh
+                    social.tStartRefresh = tThisFlipGlobal  # on global time
+                    win.timeOnFlip(social, 'tStartRefresh')  # time at next scr refresh
                     # update status
-                    resp_prompt.status = STARTED
-                    resp_prompt.setAutoDraw(True)
+                    social.status = STARTED
+                    social.setAutoDraw(True)
                 
-                # if resp_prompt is active this frame...
-                if resp_prompt.status == STARTED:
+                # if social is active this frame...
+                if social.status == STARTED:
                     # update params
                     pass
                 
-                # if resp_prompt is stopping this frame...
-                if resp_prompt.status == STARTED:
+                # if social is stopping this frame...
+                if social.status == STARTED:
                     # is it time to stop? (based on global clock, using actual start)
-                    if tThisFlipGlobal > resp_prompt.tStartRefresh + 10-frameTolerance:
+                    if tThisFlipGlobal > social.tStartRefresh + 10-frameTolerance:
                         # keep track of stop time/frame for later
-                        resp_prompt.tStop = t  # not accounting for scr refresh
-                        resp_prompt.tStopRefresh = tThisFlipGlobal  # on global time
-                        resp_prompt.frameNStop = frameN  # exact frame index
+                        social.tStop = t  # not accounting for scr refresh
+                        social.tStopRefresh = tThisFlipGlobal  # on global time
+                        social.frameNStop = frameN  # exact frame index
                         # update status
-                        resp_prompt.status = FINISHED
-                        resp_prompt.setAutoDraw(False)
+                        social.status = FINISHED
+                        social.setAutoDraw(False)
+                
+                # *unsure* updates
+                
+                # if unsure is starting this frame...
+                if unsure.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                    # keep track of start time/frame for later
+                    unsure.frameNStart = frameN  # exact frame index
+                    unsure.tStart = t  # local t and not account for scr refresh
+                    unsure.tStartRefresh = tThisFlipGlobal  # on global time
+                    win.timeOnFlip(unsure, 'tStartRefresh')  # time at next scr refresh
+                    # update status
+                    unsure.status = STARTED
+                    unsure.setAutoDraw(True)
+                
+                # if unsure is active this frame...
+                if unsure.status == STARTED:
+                    # update params
+                    pass
+                
+                # if unsure is stopping this frame...
+                if unsure.status == STARTED:
+                    # is it time to stop? (based on global clock, using actual start)
+                    if tThisFlipGlobal > unsure.tStartRefresh + 10-frameTolerance:
+                        # keep track of stop time/frame for later
+                        unsure.tStop = t  # not accounting for scr refresh
+                        unsure.tStopRefresh = tThisFlipGlobal  # on global time
+                        unsure.frameNStop = frameN  # exact frame index
+                        # update status
+                        unsure.status = FINISHED
+                        unsure.setAutoDraw(False)
+                
+                # *no_interaction* updates
+                
+                # if no_interaction is starting this frame...
+                if no_interaction.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                    # keep track of start time/frame for later
+                    no_interaction.frameNStart = frameN  # exact frame index
+                    no_interaction.tStart = t  # local t and not account for scr refresh
+                    no_interaction.tStartRefresh = tThisFlipGlobal  # on global time
+                    win.timeOnFlip(no_interaction, 'tStartRefresh')  # time at next scr refresh
+                    # add timestamp to datafile
+                    thisExp.timestampOnFlip(win, 'no_interaction.started')
+                    # update status
+                    no_interaction.status = STARTED
+                    no_interaction.setAutoDraw(True)
+                
+                # if no_interaction is active this frame...
+                if no_interaction.status == STARTED:
+                    # update params
+                    pass
+                
+                # if no_interaction is stopping this frame...
+                if no_interaction.status == STARTED:
+                    # is it time to stop? (based on global clock, using actual start)
+                    if tThisFlipGlobal > no_interaction.tStartRefresh + 10-frameTolerance:
+                        # keep track of stop time/frame for later
+                        no_interaction.tStop = t  # not accounting for scr refresh
+                        no_interaction.tStopRefresh = tThisFlipGlobal  # on global time
+                        no_interaction.frameNStop = frameN  # exact frame index
+                        # add timestamp to datafile
+                        thisExp.timestampOnFlip(win, 'no_interaction.stopped')
+                        # update status
+                        no_interaction.status = FINISHED
+                        no_interaction.setAutoDraw(False)
+                
+                # *left* updates
+                
+                # if left is starting this frame...
+                if left.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                    # keep track of start time/frame for later
+                    left.frameNStart = frameN  # exact frame index
+                    left.tStart = t  # local t and not account for scr refresh
+                    left.tStartRefresh = tThisFlipGlobal  # on global time
+                    win.timeOnFlip(left, 'tStartRefresh')  # time at next scr refresh
+                    # add timestamp to datafile
+                    thisExp.timestampOnFlip(win, 'left.started')
+                    # update status
+                    left.status = STARTED
+                    left.setAutoDraw(True)
+                
+                # if left is active this frame...
+                if left.status == STARTED:
+                    # update params
+                    pass
+                
+                # if left is stopping this frame...
+                if left.status == STARTED:
+                    # is it time to stop? (based on global clock, using actual start)
+                    if tThisFlipGlobal > left.tStartRefresh + 10-frameTolerance:
+                        # keep track of stop time/frame for later
+                        left.tStop = t  # not accounting for scr refresh
+                        left.tStopRefresh = tThisFlipGlobal  # on global time
+                        left.frameNStop = frameN  # exact frame index
+                        # add timestamp to datafile
+                        thisExp.timestampOnFlip(win, 'left.stopped')
+                        # update status
+                        left.status = FINISHED
+                        left.setAutoDraw(False)
+                
+                # *down* updates
+                
+                # if down is starting this frame...
+                if down.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                    # keep track of start time/frame for later
+                    down.frameNStart = frameN  # exact frame index
+                    down.tStart = t  # local t and not account for scr refresh
+                    down.tStartRefresh = tThisFlipGlobal  # on global time
+                    win.timeOnFlip(down, 'tStartRefresh')  # time at next scr refresh
+                    # add timestamp to datafile
+                    thisExp.timestampOnFlip(win, 'down.started')
+                    # update status
+                    down.status = STARTED
+                    down.setAutoDraw(True)
+                
+                # if down is active this frame...
+                if down.status == STARTED:
+                    # update params
+                    pass
+                
+                # if down is stopping this frame...
+                if down.status == STARTED:
+                    # is it time to stop? (based on global clock, using actual start)
+                    if tThisFlipGlobal > down.tStartRefresh + 10-frameTolerance:
+                        # keep track of stop time/frame for later
+                        down.tStop = t  # not accounting for scr refresh
+                        down.tStopRefresh = tThisFlipGlobal  # on global time
+                        down.frameNStop = frameN  # exact frame index
+                        # add timestamp to datafile
+                        thisExp.timestampOnFlip(win, 'down.stopped')
+                        # update status
+                        down.status = FINISHED
+                        down.setAutoDraw(False)
+                
+                # *right* updates
+                
+                # if right is starting this frame...
+                if right.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                    # keep track of start time/frame for later
+                    right.frameNStart = frameN  # exact frame index
+                    right.tStart = t  # local t and not account for scr refresh
+                    right.tStartRefresh = tThisFlipGlobal  # on global time
+                    win.timeOnFlip(right, 'tStartRefresh')  # time at next scr refresh
+                    # add timestamp to datafile
+                    thisExp.timestampOnFlip(win, 'right.started')
+                    # update status
+                    right.status = STARTED
+                    right.setAutoDraw(True)
+                
+                # if right is active this frame...
+                if right.status == STARTED:
+                    # update params
+                    pass
+                
+                # if right is stopping this frame...
+                if right.status == STARTED:
+                    # is it time to stop? (based on global clock, using actual start)
+                    if tThisFlipGlobal > right.tStartRefresh + 10-frameTolerance:
+                        # keep track of stop time/frame for later
+                        right.tStop = t  # not accounting for scr refresh
+                        right.tStopRefresh = tThisFlipGlobal  # on global time
+                        right.frameNStop = frameN  # exact frame index
+                        # add timestamp to datafile
+                        thisExp.timestampOnFlip(win, 'right.stopped')
+                        # update status
+                        right.status = FINISHED
+                        right.setAutoDraw(False)
                 
                 # *resp_key* updates
                 waitOnFlip = False
@@ -1143,40 +1337,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                         resp_key.duration = _resp_key_allKeys[-1].duration
                         # a response ends the routine
                         continueRoutine = False
-                
-                # *arrow_text* updates
-                
-                # if arrow_text is starting this frame...
-                if arrow_text.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                    # keep track of start time/frame for later
-                    arrow_text.frameNStart = frameN  # exact frame index
-                    arrow_text.tStart = t  # local t and not account for scr refresh
-                    arrow_text.tStartRefresh = tThisFlipGlobal  # on global time
-                    win.timeOnFlip(arrow_text, 'tStartRefresh')  # time at next scr refresh
-                    # add timestamp to datafile
-                    thisExp.timestampOnFlip(win, 'arrow_text.started')
-                    # update status
-                    arrow_text.status = STARTED
-                    arrow_text.setAutoDraw(True)
-                
-                # if arrow_text is active this frame...
-                if arrow_text.status == STARTED:
-                    # update params
-                    pass
-                
-                # if arrow_text is stopping this frame...
-                if arrow_text.status == STARTED:
-                    # is it time to stop? (based on global clock, using actual start)
-                    if tThisFlipGlobal > arrow_text.tStartRefresh + 10-frameTolerance:
-                        # keep track of stop time/frame for later
-                        arrow_text.tStop = t  # not accounting for scr refresh
-                        arrow_text.tStopRefresh = tThisFlipGlobal  # on global time
-                        arrow_text.frameNStop = frameN  # exact frame index
-                        # add timestamp to datafile
-                        thisExp.timestampOnFlip(win, 'arrow_text.stopped')
-                        # update status
-                        arrow_text.status = FINISHED
-                        arrow_text.setAutoDraw(False)
                 
                 # check for quit (typically the Esc key)
                 if defaultKeyboard.getKeys(keyList=["escape"]):
