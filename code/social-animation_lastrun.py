@@ -1,8 +1,8 @@
 ﻿#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-This experiment was created using PsychoPy3 Experiment Builder (v2025.2.0),
-    on Fri Dec 12 11:35:45 2025
+This experiment was created using PsychoPy3 Experiment Builder (v2024.2.4),
+    on Wed May  6 16:02:22 2026
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -43,7 +43,7 @@ deviceManager = hardware.DeviceManager()
 _thisDir = os.path.dirname(os.path.abspath(__file__))
 # store info about the experiment session
 psychopyVersion = '2024.2.4'
-expName = 'social-animation'  # from the Builder filename that created this script
+expName = 'social-animations-fnirs'  # from the Builder filename that created this script
 # information about this experiment
 expInfo = {
     'Dyad ID': '',
@@ -63,7 +63,7 @@ or run the experiment with `--pilot` as an argument. To change what pilot
 PILOTING = core.setPilotModeFromArgs()
 # start off with values from experiment settings
 _fullScr = True
-_winSize = [1536, 960]
+_winSize = [1920, 1080]
 # if in pilot mode, apply overrides according to preferences
 if PILOTING:
     # force windowed mode
@@ -129,7 +129,7 @@ def setupData(expInfo, dataDir=None):
     thisExp = data.ExperimentHandler(
         name=expName, version='',
         extraInfo=expInfo, runtimeInfo=None,
-        originPath='C:\\Users\\Public\\Desktop\\SCANS Tasks\\SCANS-social_animation_fNIRS\\code\\social-animation_lastrun.py',
+        originPath='/Users/mizwally/Desktop/SCANS-social_animation_fNIRS/code/social-animation_lastrun.py',
         savePickle=True, saveWideText=True,
         dataFileName=dataDir + os.sep + filename, sortColumns='priority'
     )
@@ -403,7 +403,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # --- Initialize components for Routine "intro" ---
     Intro = visual.TextStim(win=win, name='Intro',
-        text='You will now watch short clips of shapes and decide if they are having a social interaction or not. \n\nWhen the clip is finished, you will be prompted to make a decision.\n\nFor a social interaction, press the left arrow key. For no interaction, press the right arrow key. If you are not sure, press the down arrow key. \n\n',
+        text='You will now watch short clips of shapes and decide if they are having a social interaction or not. \n\nWhen the clip is finished, you will be prompted to make a decision. You will have 10 seconds to make a choice.\n\nFor a social interaction, press the left arrow key. For no interaction, press the right arrow key. If you are not sure, press the down arrow key. \n\n',
         font='Open Sans',
         pos=(0, 0.1), draggable=False, height=0.04, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
@@ -479,7 +479,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-5.0);
-    resp_key = keyboard.Keyboard(deviceName='defaultKeyboard')
+    resp_key = keyboard.Keyboard(deviceName='resp_key')
     
     # --- Initialize components for Routine "fixation_phase" ---
     fixation = visual.TextStim(win=win, name='fixation',
@@ -492,7 +492,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # --- Initialize components for Routine "end_task" ---
     end_task_text = visual.TextStim(win=win, name='end_task_text',
-        text='Thank you for participanting.',
+        text='Thank you for participating.',
         font='Open Sans',
         pos=(0, 0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
@@ -793,14 +793,16 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # *start_sound* updates
         
         # if start_sound is starting this frame...
-        if start_sound.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        if start_sound.status == NOT_STARTED and t >= 0.0-frameTolerance:
             # keep track of start time/frame for later
             start_sound.frameNStart = frameN  # exact frame index
             start_sound.tStart = t  # local t and not account for scr refresh
             start_sound.tStartRefresh = tThisFlipGlobal  # on global time
+            # add timestamp to datafile
+            thisExp.addData('start_sound.started', t)
             # update status
             start_sound.status = STARTED
-            start_sound.play(when=win)  # sync with win flip
+            start_sound.play()  # start the sound (it finishes automatically)
         
         # if start_sound is stopping this frame...
         if start_sound.status == STARTED:
@@ -810,6 +812,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 start_sound.tStop = t  # not accounting for scr refresh
                 start_sound.tStopRefresh = tThisFlipGlobal  # on global time
                 start_sound.frameNStop = frameN  # exact frame index
+                # add timestamp to datafile
+                thisExp.addData('start_sound.stopped', t)
                 # update status
                 start_sound.status = FINISHED
                 start_sound.stop()
@@ -1544,7 +1548,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # --- Run Routine "end_task" ---
     end_task.forceEnded = routineForceEnded = not continueRoutine
-    while continueRoutine and routineTimer.getTime() < 5.0:
+    while continueRoutine and routineTimer.getTime() < 3.0:
         # get current time
         t = routineTimer.getTime()
         tThisFlip = win.getFutureFlipTime(clock=routineTimer)
@@ -1573,7 +1577,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # if end_task_text is stopping this frame...
         if end_task_text.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > end_task_text.tStartRefresh + 5-frameTolerance:
+            if tThisFlipGlobal > end_task_text.tStartRefresh + 3-frameTolerance:
                 # keep track of stop time/frame for later
                 end_task_text.tStop = t  # not accounting for scr refresh
                 end_task_text.tStopRefresh = tThisFlipGlobal  # on global time
@@ -1659,7 +1663,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     elif end_task.forceEnded:
         routineTimer.reset()
     else:
-        routineTimer.addTime(-5.000000)
+        routineTimer.addTime(-3.000000)
     thisExp.nextEntry()
     
     # mark experiment as finished
